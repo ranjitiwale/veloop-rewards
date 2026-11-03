@@ -155,7 +155,7 @@ Through this project, I worked on:
 ## Project Links
 
 - **GitHub Repository:** https://github.com/ranjitiwale/veloop-rewards
-- **Live Demo:** Coming Soon
+- **Live Demo:** https://veloop-rewards-nu.vercel.app/
 
 ## Author
 
