@@ -1,0 +1,109 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Website Theme */
+:root {
+  --bg-primary: #161827;
+  --bg-secondary: #202438;
+
+  --text-primary: #ffffff;
+  --text-secondary: #a6a9b8;
+
+  --accent-gold: #d6ae65;
+
+  --border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Body */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+
+  font-family: Arial, sans-serif;
+
+  min-height: 100vh;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 20px;
+}
+
+
+/* GLOBAL RESPONSIVE SETTINGS */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #d6ae65;
+  outline-offset: 4px;
+}
+
+/* RESPONSIVE APP CONTAINER */
+
+.app-main {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .app-main {
+    padding: 14px;
+    gap: 18px;
+  }
+}
+
+@media (max-width: 380px) {
+  .app-main {
+    padding: 10px;
+    gap: 14px;
+  }
+}
